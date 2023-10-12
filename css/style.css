@@ -40,6 +40,11 @@ a {
   font-size: 2rem;
 }
 
+section#entertainment {
+  background: url("../img/section-bg.jpg") no-repeat center center / cover;
+  padding: 10rem 0;
+}
+
 /* Showcase */
 #showcase {
   margin: 0;
@@ -112,8 +117,8 @@ a {
 }
 
 .bg-light {
-    background: var(--light-color);
-    color: #333;
+  background: var(--light-color);
+  color: #333;
 }
 
 .mb {
