@@ -97,8 +97,8 @@ footer .footer-cols ul li:first-child {
 }
 
 footer .footer-bottom {
-    background: #333;
-    padding: 1rem;
+  background: #333;
+  padding: 1rem;
 }
 
 /* Utility classes */
@@ -285,4 +285,20 @@ nav a#openup {
 
 .cf {
   zoom: 1;
+}
+
+@media screen and (max-width: 780px) {
+  .gift-cards {
+    grid-template-columns: 1fr;
+  }
+
+  footer .footer-cols {
+    display: none;
+  }
+}
+
+@media screen and (max-height: 580px) {
+  #showcase p.lead {
+    display: none;
+  }
 }
